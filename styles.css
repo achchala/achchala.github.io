@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     min-height: 100%;
     width: 100%;
@@ -21,7 +25,7 @@
     color: #AE428A;
     padding-bottom: 40px;
     padding-top: 60px;
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .homeIntro
@@ -39,16 +43,6 @@
 
 /*Menu*/
 
-nav .logo {
-   font-size: 30px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-top: 12px;
-    background: linear-gradient(90deg, hsla(320, 45%, 47%, 1) 0%, hsla(335, 51%, 53%, 1) 30%, hsla(349, 68%, 59%, 0.9) 55%, hsla(289, 18%, 77%, 1) 87%, hsla(197, 94%, 87%, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding:15px 0px;
-}
 
 nav {
     display: flex;
@@ -57,7 +51,52 @@ nav {
     max-width: 80%;
     margin: auto;
 }
-nav .mainMenu {
+
+nav .logo {
+    font-size: 28px;
+     font-weight: 500;
+     cursor: pointer;
+     margin-top: 2%;
+     background: linear-gradient(90deg, hsla(320, 45%, 47%, 1) 0%, hsla(335, 51%, 53%, 1) 30%, hsla(349, 68%, 59%, 0.9) 55%, hsla(289, 18%, 77%, 1) 87%, hsla(197, 94%, 87%, 1) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     padding: 15px 0px;
+ }
+
+nav .menu {
     display: flex;
     list-style: none;
+    margin-top: 2%;
 }
+nav .menu li a {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 2%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+/* Links */
+a:link {
+    /* color: #eb614c; */
+    color: #7a0ed3;
+    background-color: transparent;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    color: #dd4e69;
+    background-color: #fff;
+    }
+    
+    a:active {
+    background-color: #fff;
+    }
+    
+    a:hover {
+      /* color: #ff9980; */
+      color: #000;
+      background: #c1ecfd;
+      text-decoration: none;
+    }
