@@ -63,6 +63,12 @@ nav .logo {
      padding: 15px 0px;
  }
 
+ nav .logo:hover {
+    background: #AE428A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
 nav .menu {
     display: flex;
     list-style: none;
@@ -75,6 +81,15 @@ nav .menu li a {
     text-decoration: none;
     font-size: 20px;
     color: #000;
+}
+
+nav .menu a:hover{
+    background: #AE428A;
+    color: #fff;
+}
+
+nav .menu .current {
+    color: #dd4e69;
 }
 
 /* Links */
@@ -95,7 +110,6 @@ a:link {
     }
     
     a:hover {
-      /* color: #ff9980; */
       color: #000;
       background: #c1ecfd;
       text-decoration: none;
