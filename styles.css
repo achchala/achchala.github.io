@@ -32,7 +32,7 @@ html{
 {
     margin: auto;
     width: 80%;
-    padding-botton: 20px;
+    padding-bottom: 20px;
     font-size: 16px;;
 
 }
@@ -94,8 +94,7 @@ nav .menu .current {
 
 /* Links */
 a:link {
-    /* color: #eb614c; */
-    color: #7a0ed3;
+    color: #dd4e69;
     background-color: transparent;
     text-decoration: none;
     }
@@ -113,4 +112,14 @@ a:link {
       color: #000;
       background: #c1ecfd;
       text-decoration: none;
+    }
+
+/* Footer */
+    .footer {
+        margin: auto;
+        width: 80%;
+    }
+
+    .footerTitle {
+        font-size: 16px;;
     }
