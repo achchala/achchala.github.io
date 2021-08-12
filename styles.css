@@ -24,7 +24,7 @@ html{
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
     display: flex;
-    justify-content: center
+    justify-content: left;
 }
 
 .homeHeader
@@ -49,16 +49,45 @@ html{
 
 }
 
+.talkButton {
+    background-color: #fff;
+    border-color: #000;
+    border-width: 1px;
+    color: #AE428A;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.talkButton:hover {
+    background-color: #AE428A;
+    color: #fff;
+    border-color: #AE428A;
+}
+
+
+.text {
+    float: left;
+}
+
 
 .mePhoto {
-    width:50%;
     height:auto;
+    max-width: 80%;
     float: right;
     border-radius: 5%;
 }
 
 /*Menu*/
 
+/*.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    max-width: 80%;
+    background-color: #fff;
+    padding-left: 10%;
+    padding: 1em;
+} */
 
 nav {
     display: flex;
@@ -120,9 +149,6 @@ a:link {
     background-color: #fff;
     }
     
-    a:active {
-    background-color: #fff;
-    }
     
     a:hover {
       color: #000;
@@ -130,10 +156,15 @@ a:link {
       text-decoration: none;
     }
 
+    a:active {
+        background-color: #fff;
+        }
+
 /* Footer */
     .footer {
         margin: auto;
         width: 80%;
+        padding-bottom: 2%;
     }
 
     .footerTitle {
