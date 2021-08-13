@@ -16,6 +16,16 @@ html{
     scroll-behavior: smooth;
 }
 
+h1 {
+    font-size: 22px;
+    color: #AE428A;
+
+}
+
+h3 {
+    font-size: 18px;
+}
+
 .homeHeader
 {
     margin: auto;
@@ -33,7 +43,7 @@ html{
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 90%;
     padding-left: 10%;
     display: flex;
     flex-direction: row;
@@ -53,7 +63,7 @@ html{
 }
 
 .image {
-    flex-basis: 45%;
+    flex-basis: 50%;
     padding-bottom: 3%;
 }
 
@@ -61,6 +71,16 @@ html{
     max-width: 100%;
     border-radius: 5%;
 }
+
+.photoMe:hover {
+    transform: scale(1.015);
+    -moz-box-shadow: 10px 10px  #c1ecfd;
+    -webkit-box-shadow: 10px 10px  #c1ecfd;
+    box-shadow: 10px 10px  #c1ecfd;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    border-radius: 5%;
+    }
 
 .talkButton {
     background-color: #fff;
@@ -81,6 +101,41 @@ html{
 
 
 
+/*Resume Section*/
+
+.resumeStyle {
+    width: 90%;
+    padding-left: 10%;
+}
+
+.aboutTitle {
+    font-size: 28px;
+    color: #dd4e69;
+}
+
+.portfolioContainer {
+    display: flex;
+    align-items: left;
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolioImg {
+    border-radius: 5%;
+   width: 125%;
+    }
+
+.portfolioImg:hover {
+    transform: scale(1.015);
+    -moz-box-shadow: 2px 2px  #c1ecfd;
+    -webkit-box-shadow: 2px 12x  #c1ecfd;
+    box-shadow: 2px 2px  #c1ecfd;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    border-radius: 5%;
+    }
 
 /*Menu*/
 

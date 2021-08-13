@@ -1,2 +1,2 @@
 # achchala.github.io
-in progress
+Portfolio website - August 2021
