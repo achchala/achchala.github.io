@@ -116,7 +116,7 @@ h3 {
 .portfolioContainer {
     display: flex;
     align-items: left;
-    width: 80%;
+    width: 86.5%;
     padding-left: 10%;
     display: flex;
     justify-content: space-evenly;
@@ -129,13 +129,13 @@ h3 {
 
 .portfolioImg:hover {
     transform: scale(1.015);
-    -moz-box-shadow: 2px 2px  #c1ecfd;
-    -webkit-box-shadow: 2px 12x  #c1ecfd;
-    box-shadow: 2px 2px  #c1ecfd;
-    -moz-border-radius: 5%;
-    -webkit-border-radius: 5%;
     border-radius: 5%;
     }
+
+.desList {
+    padding-left: 3%;
+    font-size: 15px;
+}
 
 /*Menu*/
 
