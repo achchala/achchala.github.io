@@ -130,6 +130,7 @@ h3 {
 .portfolioImg:hover {
     transform: scale(1.015);
     border-radius: 5%;
+    background: white;
     }
 
 .desList {
