@@ -36,7 +36,7 @@ h3 {
     padding-bottom: 50px;
     padding-top: 60px;
     padding-left: 10%;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .container{
@@ -63,23 +63,25 @@ h3 {
 }
 
 .image {
-    flex-basis: 50%;
+    flex-basis: 40%;
     padding-bottom: 3%;
 }
 
 .photoMe {
     max-width: 100%;
-    border-radius: 5%;
+   /* border-radius: 5%;*/
 }
 
 .photoMe:hover {
     transform: scale(1.015);
+      /* 
     -moz-box-shadow: 10px 10px  #c1ecfd;
     -webkit-box-shadow: 10px 10px  #c1ecfd;
     box-shadow: 10px 10px  #c1ecfd;
     -moz-border-radius: 5%;
     -webkit-border-radius: 5%;
     border-radius: 5%;
+    */
     }
 
 .talkButton {
@@ -125,12 +127,13 @@ h3 {
 .portfolioImg {
     border-radius: 5%;
    width: 125%;
+   padding:1%;
     }
 
 .portfolioImg:hover {
     transform: scale(1.015);
     border-radius: 5%;
-    background: white;
+    background: none;
     }
 
 .desList {
@@ -185,18 +188,40 @@ nav .menu li a {
     padding: 15px;
     margin-top: 2%;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #000;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
 }
 
 nav .menu a:hover{
-    background: #AE428A;
-    color: #fff;
+    color: #dd4e69;
+    background-color: white;
 }
 
 nav .menu .current {
     color: #dd4e69;
 }
+
+
+
+/* Footer */
+    .footer {
+        margin: auto;
+        width: 80%;
+        padding-bottom: 2%;
+    }
+
+    .footerTitle {
+        font-size: 16px;;
+    }
+
+    .contactLinks {
+        padding-bottom: 2%;
+    }
 
 /* Links */
 a:link {
@@ -220,19 +245,3 @@ a:link {
     a:active {
         background-color: #fff;
         }
-
-/* Footer */
-    .footer {
-        margin: auto;
-        width: 80%;
-        padding-bottom: 2%;
-    }
-
-    .footerTitle {
-        font-size: 16px;;
-    }
-
-    .contactLinks {
-        padding-bottom: 2%;
-    }
-
