@@ -12,6 +12,10 @@ height: 1px;
 border: 0px;
 }
 
+body {
+background-color: #fff;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -101,7 +105,10 @@ h3 {
     font-size: 20px;
 }
 
-
+.littleText {
+    width: 90%;
+    padding-left: 10%;  
+}
 
 /*Resume Section*/
 
@@ -170,9 +177,9 @@ nav .logo {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      padding: 15px 0px;
- }
+}
 
- nav .logo:hover {
+nav .logo:hover {
     background: #152184;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -198,29 +205,33 @@ nav .menu li a {
 }
 
 nav .menu a:hover{
-    color: #152184;
-    background-color: white;
+    color: #AE4289;
+    background-color: transparent;
 }
 
 nav .menu .current {
-    color: #152184;
+    color: #AE4289;
 }
 
 /* Footer */
 footer {
     background-color: #152184;
-    color: #F9D5DB;
+    color: white;
     text-align: center;
     }
 
 footer a:link{
-    color: #ffffff;
+    color: #c1ecfd;
 }
 
 
 footer a:hover {
     color: black;
-    background-color: #F9D5DB; 
+    background-color: #c1ecfd; 
+ }
+
+ footer a:visited {
+    color: #c1ecfd;
  }
 
 
@@ -233,7 +244,7 @@ footer a:hover {
 
     .footerTitle {
         font-size: 16px;;
-        color: #ffffff;
+        color: white;
     }
 
     .contactLinks {
@@ -242,7 +253,7 @@ footer a:hover {
 
 /* Links */
 a:link {
-    color: 152184;
+    color: #152184;
     background-color: transparent;
     text-decoration: none;
     }
