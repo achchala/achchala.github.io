@@ -385,3 +385,9 @@ a:link {
         margin: 0 auto; /* Center the image if needed */
     }
 }
+
+.clicked {
+    transform: scale(1.015);
+    box-shadow: 10px 10px #F9D5DB;
+    border-radius: 5%;
+}
