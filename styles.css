@@ -70,10 +70,11 @@ h3 {
     max-width: 70%; 
   }
 
-.projectList
-{
-
+img {
+    max-width: 100%;
+    height: auto;
 }
+
 
 .homeIntro
 {
@@ -88,6 +89,8 @@ h3 {
 .image {
     flex-basis: 40%;
     padding-bottom: 3%;
+    text-align: center; /* This will center the child elements like the image */
+
 }
 
 .photoMe {
@@ -322,3 +325,63 @@ a:link {
     a:active {
         background-color: #fff;
         }
+
+
+/* mobile responsiveness */
+@media (max-width: 768px) {
+    .homeHeader {
+        font-size: 22px; 
+        padding: 18%;
+    }
+
+    .littleText, .portfolioContainer {
+        padding-left: 5%;
+        padding-right: 5%; 
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .logo {
+        margin: 20px 0; /* Give some space around the logo */
+    }
+
+    nav .menu {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    nav .menu li a {
+        padding: 10px;
+        margin: 5px 0; /* Add space between links */
+    }
+
+    h1, .aboutTitle {
+        font-size: 20px; /* Slightly reduce the font size */
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .desList, .littleText, .resumeStyle, .footerText {
+        font-size: 14px; /* Adjust text size for readability */
+    }
+
+    .talkButton, .menu a {
+        font-size: 16px; /* Make buttons and menu links larger for easier clicking */
+    }
+    .container, .portfolioContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image, .photoMe {
+        order: -1; /* This moves images to the top of the section on small screens */
+        max-width: 90%; /* or any specific size you prefer */
+        height: auto; /* Maintain the aspect ratio */
+        margin: 0 auto; /* Center the image if needed */
+    }
+}
